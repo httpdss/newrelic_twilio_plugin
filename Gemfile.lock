@@ -4,7 +4,7 @@ GEM
     builder (3.2.2)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
-    json (1.8.0)
+    json (1.8.6)
     jwt (0.1.8)
       multi_json (>= 1.5)
     multi_json (1.7.9)
@@ -21,5 +21,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json (~> 1.8.3)
   newrelic_plugin (~> 1.0.3)
   twilio-ruby (= 3.9.0)
+
+BUNDLED WITH
+   1.16.0
